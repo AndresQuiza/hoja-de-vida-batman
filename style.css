@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #808080;
+}
+
+.name {
+	width: 100%;
+	height: 300px;
+	background: #F4D35E;
+}
+
+.name .content {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 25%;
+
+}
+
+.name .content .p-1 {
+	color: #000000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+	font-size: 65px;
+	margin-bottom: 0;
+}
+
+.name .content .p-2 {
+	color: #000000;
+	font-family: 'Rubik', sans-serif;
+	font-size: 35px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.name .img {
+	position: absolute;
+	top: 8%;
+	right: 5%;
+	width: 200px;
+	height: 190px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.name .img img {
+	width: 190,5%;
+	height: 130%;
+}
+
+.info {
+	width: 90%;
+	height: auto;
+	background: #F4D35E;
+	margin: 5% auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.info .tituloseccion {
+	color: #000000;
+	font-family: 'Rubik', sans-serif;
+	font-size: xx-large;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 5px black solid;
+}
+
+.info .titulodatospersonales {
+	color:#000000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+	font-size: large;
+	display: inline;
+	margin-right: 20px;
+}
+
+.info .infoinfo {
+	color:#000000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: large;
+	display: inline;
+}
